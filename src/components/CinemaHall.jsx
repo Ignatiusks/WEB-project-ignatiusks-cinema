@@ -6,7 +6,7 @@ const CinemaHall = ({ seats, onSelect }) => {
     <div className="hall">
       {seats.map((seat, index) => {
         if (seat === null) {
-          return <div key={index} className="empty-seat"></div>; // прохід
+          return <div key={index} className="empty-seat"></div>; 
         }
 
         return (

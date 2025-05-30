@@ -1,0 +1,56 @@
+.movie-card {
+  background-color: #1c1c1c;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-bottom: 1px solid #333;
+}
+
+.movie-details {
+  padding: 16px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-details h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: #ccc;
+}
+
+.book-button {
+  background-color: #ff4444;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 100%;
+  font-weight: bold;
+}
+
+.book-button:hover {
+  background-color: #cc0000;
+}
